@@ -108,7 +108,7 @@ class _AddBookDialogState extends State<AddBookDialog> {
                 const SizedBox(width: 12),
                 Expanded(
                   child: DropdownButtonFormField<ReadingStatus>(
-                    value: _status,
+                    initialValue: _status,
                     decoration: const InputDecoration(labelText: 'Durum', border: OutlineInputBorder()),
                     items: const [
                       DropdownMenuItem(value: ReadingStatus.reading, child: Text('Okunuyor')),

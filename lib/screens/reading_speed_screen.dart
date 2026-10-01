@@ -291,7 +291,7 @@ class _ReadingSpeedScreenState extends State<ReadingSpeedScreen> {
                   icon: const Icon(Icons.check_circle_outline),
                   label: const Text(
                     'Okumayı Bitirdim',
-                    style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),

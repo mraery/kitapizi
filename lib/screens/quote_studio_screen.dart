@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import '../models/quote.dart';
 import '../services/reading_service.dart';
 import 'add_quote_dialog.dart';
 
